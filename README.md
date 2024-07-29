@@ -7,7 +7,7 @@ Instalação
 Criação do Banco de dados.
 
 ```sql
-    create database umentor;
+create database umentor;
 ```
 
 
