@@ -1,5 +1,4 @@
 <?php 
-
     // SISTEMA BÁSICO DE ROTAS - AJAX PARA O CONTROLLER
     $tipo = $_POST['tipo'];
 
