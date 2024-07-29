@@ -1,0 +1,216 @@
+
+/* HEADER */
+
+.navbar {
+    background-color: #5e0185 !important;            
+    height: 75px !important ;
+}
+
+.logo-header {
+    width: 180px;
+}
+
+/* FIM HEADER */
+
+/* CORPO */
+.container-fluid {
+    max-width: 80% !important;
+}
+
+body {
+    background-color: #ebf1f2 !important;
+}
+
+.main {
+    max-width: 80% !important;
+    margin: 0 auto;
+    margin-top: 20px;            
+    background-color: white !important;
+    border-radius: 5px;
+}
+
+/* FIM CORPO */
+
+
+/* TABLE */
+
+.nav-link {
+    color: white !important;
+    font-size: 20px;            
+}
+
+th {
+    background-color: #5e0185 !important;
+    color: white !important;
+    text-align: center !important;
+    border-right: 1px solid white !important;
+    border-radius: 5px;
+}
+
+td {            
+    vertical-align: middle;
+    text-align: center !important;
+    text-wrap: nowrap;
+}
+
+tr {
+    height: 50px;
+    font-weight: 600;
+}
+
+.tr-th {
+    height: 30px !important;
+}
+
+.dt-paging {
+    margin-right: 10px !important;
+}
+
+.dt-search {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#tabela-usuario {            
+    width: calc(100% - 20px) !important;
+    margin-left: 10px;
+    margin-right: 10px;            
+    background-color: white;
+}
+
+.page-link {
+    background-color: #e9ecef !important;
+    color: #53575b;
+}
+
+.page-link:hover {
+    background-color: #e9ecef !important;
+    color: #53575b;
+}
+
+.page-link.active, .active > .page-link {
+    background-color: #5e0185 !important;
+    border-color: #5e0185 !important;
+}
+
+.active:hover {
+    background-color: #5e0185 !important;
+    border-color: #5e0185 !important;
+    color: white !important;
+}
+
+/* FIM TABLE */
+
+/* BOTÕES */
+.cadastrar-usuario {
+    background-color: #5e0185 !important;
+    border-color: #5e0185 !important;
+    color: white !important;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;            
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* FIM BOTÕES */
+
+
+/* INPUTS */
+.input-form-cadastrar {
+    width: 100%;
+    border-radius: 5px;
+    border-color: #e9eff0;
+}
+
+.margin-label {
+    margin-top: 10px;
+}
+
+.acoes {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.acao-deletar {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.acao-editar {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #198754;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.acao-visualizar {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6c757d;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.botao-alinha {
+    text-align: right;
+}
+
+/* FIM INPUTS */
+
+/* CSS's EM GERAL */
+.ativo {
+    background-color: #1b84ff;
+    border-radius: 5px;
+    border: 1px solid #edf5fd;
+    color: white;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: 650;   
+}
+
+.inativo {
+    background-color: #f82859;
+    border-radius: 5px;
+    border: 1px solid #f82859;
+    color: white;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: 650;   
+}
+
+#error-cadastro {
+    color: red;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 650;   
+    margin-bottom: 10px;
+}
+
+#cadastrar,
+#salvar-edicao {
+    background-color: #5e0185 !important;
+    border-color: #5e0185 !important;
+}
+
+/* FINAL CSS's EM GERAL */
